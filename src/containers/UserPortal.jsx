@@ -4,7 +4,6 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import axios from 'axios';
 import { styled } from '@mui/system';
-// import styled from "styled-components";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
@@ -73,18 +72,6 @@ const UserPortal = ({ logOut }) => {
 }
 
 
-// const AcceptedUserContainer = styled.div`
-//   display: flex;
-//   align-items: center;
-//   flex-direction: column;
-//   height: 90vh;
-//   width: 90vw;
-//   padding:15px;
-//   background: rgba(255, 255, 255, 0.80);
-//   border-radius: 10px;
-//   color: black;
-//   letter-spacing: 0.3rem;
-// `;
 
 
 export default UserPortal;

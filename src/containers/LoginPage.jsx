@@ -67,11 +67,6 @@ const ParentContainer = styled.div`
     width: 60vw;
     height: auto;
   }
-
-  @media only screen and (min-width: 768px) {
-    width: 60vw;
-    height: auto;
-  }
   @media only screen and (min-width: 1024px) {
     width: 50vw;
     height: auto;
